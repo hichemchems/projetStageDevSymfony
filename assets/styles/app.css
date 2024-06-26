@@ -4,11 +4,23 @@ body {
 a{
     color: aliceblue ! important;
 }
- .navbar{
+.navbar{
 
     background-color: #09273a;
     color: aliceblue ! important ;
  }
+
+.nav-link{
+  color: rgb(249, 250, 251) ! important;
+}
+
+.dropdown-item{
+  color: rgb(102, 121, 138) ! important;
+}
+
+.nav-link:hover{
+  color: lightblue;
+}
 
 ul {
     margin: 0px;
@@ -17,6 +29,7 @@ ul {
 .footer-section {
   background: #09273a;
   position: relative;
+  border-radius: 0 20% 0 0;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
@@ -169,4 +182,53 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+
+/*css homepage*/
+
+.topOne{
+  background: red;
+  height: 26rem;
+  border-radius: 0 0 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: aliceblue;
+}
+
+.containerdowntow{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-link{
+  color: dimgrey;
+}
+
+.topTree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0% 20% 0% 20%;
+  background: #1486ff;
+  height: 26rem;
+}
+
+.cardRadius{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardCardRadius{
+  border-radius: 0% 20% 0% 20%;
 }
