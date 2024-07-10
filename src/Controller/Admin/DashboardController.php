@@ -3,8 +3,15 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Formations;
+use App\Entity\User;
+use App\Entity\Formateurs;
+
+
 
 use App\Controller\IndexHomeController;
+use App\Entity\Client;
+use App\Entity\Cours;
+use App\Entity\Etudiants;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -45,6 +52,12 @@ class DashboardController extends AbstractDashboardController
     public function configureMenuItems(): iterable
     {
         yield MenuItem::linkToCrud('Formations', 'fa fa-home', Formations::class);
+        yield MenuItem::linkToCrud('Users', 'fa fa-users', User::class);
+        yield MenuItem::linkToCrud('Formateurs', 'fa fa-folder', Formateurs::class);
+        yield MenuItem::linkToCrud('Client', 'fa fa-tag', Client::class);
+        yield MenuItem::linkToCrud('Cours', 'fa fa-comment', Cours::class);
+        yield MenuItem::linkToCrud('Etudiants', 'fa fa-comment', Etudiants::class);
+
         // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
     }
 }
