@@ -16,11 +16,12 @@ a{
     color: aliceblue ! important ;
  }
  .navbar img{
-  width: 8rem;
+  width: 10rem;
  }
 
 .nav-link{
   color: rgb(249, 250, 251) ! important;
+  font-size: 1.7rem !important;
 }
 
 .dropdown-item{
@@ -30,6 +31,13 @@ a{
 .nav-link:hover{
   color: lightblue;
 }
+
+.navbar-toggler {
+  border-color: rgb(249, 250, 251) ! important;
+  color: whitesmoke;
+}
+
+
 
 ul {
     margin: 0px;
@@ -196,21 +204,30 @@ ul {
 /*css homepage*/
 
 .topOne{
-  background: red;
+  
+  background-image: url("../image/bannièreDaccueil.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 26rem;
-  border-radius: 0 0 0 20%;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
+
 
 .topTwo{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: aliceblue;
+  background-image: url("../image/opco-opérateurs-de-compétences.jpg");
   padding: 2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
 }
 
 .containerTopTwo{
@@ -228,6 +245,22 @@ ul {
   width: 100%;
 }
 
+.card-body{
+  background-color: white;
+  border-radius: 0% 20% 0% 20%;
+  padding: 2%;
+  margin: 2%;
+
+
+}
+
+.card1{
+  
+  border-radius: 0% 20% 0% 20%;
+ padding: 2%;
+  background-color: white;
+}
+
 .card-link{
   color: dimgrey;
 }
@@ -237,10 +270,24 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 0% 20% 0% 20%;
+  border-radius: 0% 0% 0% 25px;
   background: #1486ff;
   height: 26rem;
 }
+
+.histoire{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.histoire p{
+  text-justify: inter-word;
+}
+
 
 .cardRadius{
   display: flex;
@@ -331,8 +378,15 @@ ul {
 }
 .card-text{
   text-align: justify;
-  font-size: 1.2rem;
-  margin: 3%;
+  font-size: 0.8rem;
+  
+}
+
+.card-title{
+  margin: 2% 2% 4% 0% !important;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .Témoignages{

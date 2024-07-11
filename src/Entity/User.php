@@ -31,6 +31,26 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column]
     private ?string $password = null;
 
+    #[ORM\Column(length: 255)]
+    private ?string $Nom = null;
+
+    #[ORM\Column(length: 255)]
+    private ?string $Adresse = null;
+
+    #[ORM\Column(length: 255)]
+    private ?string $niveau = null;
+
+    #[ORM\Column(length: 255)]
+    private ?string $IdClient = null;
+
+    #[ORM\Column(length: 255)]
+    private ?string $Formation = null;
+
+    #[ORM\Column(length: 255)]
+    private ?string $Promotion = null;
+
+    
+
     public function getId(): ?int
     {
         return $this->id;
@@ -104,5 +124,77 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     {
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
+    }
+
+    public function getNom(): ?string
+    {
+        return $this->Nom;
+    }
+
+    public function setNom(string $Nom): static
+    {
+        $this->Nom = $Nom;
+
+        return $this;
+    }
+
+    public function getAdresse(): ?string
+    {
+        return $this->Adresse;
+    }
+
+    public function setAdresse(string $Adresse): static
+    {
+        $this->Adresse = $Adresse;
+
+        return $this;
+    }
+
+    public function getNiveau(): ?string
+    {
+        return $this->niveau;
+    }
+
+    public function setNiveau(string $niveau): static
+    {
+        $this->niveau = $niveau;
+
+        return $this;
+    }
+
+    public function getIdClient(): ?string
+    {
+        return $this->IdClient;
+    }
+
+    public function setIdClient(string $IdClient): static
+    {
+        $this->IdClient = $IdClient;
+
+        return $this;
+    }
+
+    public function getFormation(): ?string
+    {
+        return $this->Formation;
+    }
+
+    public function setFormation(string $Formation): static
+    {
+        $this->Formation = $Formation;
+
+        return $this;
+    }
+
+    public function getPromotion(): ?string
+    {
+        return $this->Promotion;
+    }
+
+    public function setPromotion(string $Promotion): static
+    {
+        $this->Promotion = $Promotion;
+
+        return $this;
     }
 }

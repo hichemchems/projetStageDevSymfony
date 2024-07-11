@@ -46,7 +46,9 @@ class DashboardController extends AbstractDashboardController
     public function configureDashboard(): Dashboard
     {
         return Dashboard::new()
-            ->setTitle('ProjetStageDevSymfony');
+            ->setTitle('Kissyma Consulting Formation');
+            
+          
     }
 
     public function configureMenuItems(): iterable
