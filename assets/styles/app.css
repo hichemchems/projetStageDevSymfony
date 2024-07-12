@@ -21,7 +21,7 @@ a{
 
 .nav-link{
   color: rgb(249, 250, 251) ! important;
-  font-size: 1.7rem !important;
+  font-size: 1.4rem !important;
 }
 
 .dropdown-item{
@@ -457,4 +457,14 @@ ul {
 
   .ContainerLog{
     width: 60%;
+  }
+
+
+
+  @media screen and ( max-width:767px){
+
+    .nav-link{
+      font-size: 2rem !important;
+    }
+
   }
