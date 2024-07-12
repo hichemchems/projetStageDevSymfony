@@ -236,7 +236,54 @@ ul {
     justify-content: center;
 }
 
+.firstHistoire{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:midnightblue;
+  color: aliceblue;
 
+}
+
+.firstHistoire h2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+  }
+
+  .firstHistoire h3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  }
+
+  .ulContaine{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-bottom: 2%;
+  }
+
+
+  .firstHistoireUl{
+
+    margin: 2%;
+  }
+
+  .firstHistoire p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
 .containerdowntow{
   display: flex;
@@ -481,6 +528,19 @@ ul {
     width: 60%;
   }
 
+
+
+
+
+
+  /*Css Page FAQ */
+
+  /*.FAQ{}*/
+  /*.faqTitle{}*/
+  /*.faqPara{}*/
+
+
+  /*Fin Css Page FAQ*/
 
 
   @media screen and ( max-width:767px){
