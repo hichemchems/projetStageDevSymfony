@@ -458,3 +458,13 @@ ul {
   .ContainerLog{
     width: 60%;
   }
+
+
+
+  @media screen and ( max-width:767px){
+
+    .nav-link{
+      font-size: 2rem !important;
+    }
+
+  }
