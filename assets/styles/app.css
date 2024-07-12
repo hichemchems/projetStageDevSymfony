@@ -205,7 +205,7 @@ ul {
 
 .topOne{
   
-  background-image: url("../image/bannièreDaccueil.png");
+  background-image: url("../../assets/image/bannièreDaccueil.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 26rem;
@@ -223,7 +223,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../image/opco-opérateurs-de-compétences.jpg");
+  background-image: url("../image/opco-opérateurs-de-compétences.jpg");
   padding: 2%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -392,24 +392,46 @@ ul {
 .Témoignages{
   text-align: justify;
   margin: 2%;
+
+}
+
+.temoignages{
+  background-color: #fff;
 }
 
 .sixCaroussel{
   background-color: #1486ff;
   padding: 3%;
+  height: 25rem;
 }
 
+.carousel-caption {
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: justify; */
+  width: 74%;
+  padding-bottom: 9%;
+    /* padding-left: 18%;*/
+
+}
 /*test caroussel*/
 
-  .temoignages{
-    background-color: #fff;
+ 
+
+  .confianceBacktop{
+    padding: 3%;
   }
 
-  tr{
-    background-color: #fff;
+  .gridLogo{
+    background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 20% 20%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4%;
     
   }
 
