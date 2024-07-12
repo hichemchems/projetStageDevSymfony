@@ -49,7 +49,7 @@ class DashboardController extends AbstractDashboardController
         return Dashboard::new()
             ->setTitle('Kissyma Consulting Formation');
             
-          
+    
     }
 
     public function configureMenuItems(): iterable
@@ -61,6 +61,8 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Cours', 'fa fa-person-chalkboard', Cours::class);
         yield MenuItem::linkToCrud('Etudiants', 'fa fa-graduation-cap', Etudiants::class);
         yield MenuItem::linkToRoute('Retour à l\'accueil', 'fa fa-home', 'app_index_home');
-        yield MenuItem::linkToCrud('The Label', 'fas fa-list', Cours::class);
+        yield MenuItem::linkToRoute('Déconnexion', 'fa fa-sign-out', 'app_logout');
+
+        //yield MenuItem::linkToCrud('The Label', 'fas fa-list', Cours::class);
     }
 }
