@@ -227,7 +227,8 @@ ul {
   background-image: url("../../assets/image/bannièreDaccueil.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 26rem;
+  height: 28rem;
+  background-attachment: fixed;
  
   display: flex;
   align-items: center;
