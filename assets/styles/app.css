@@ -573,6 +573,17 @@ ul {
 
   @media screen and ( max-width:767px){
 
+    .container-fluid {
+      height: 8rem;
+  }
+  .topOne {
+    
+      background-position: center;
+      background-size: cover;
+      background-attachment: local;
+  
+}  
+
     .nav-link{
       font-size: 2rem !important;
     }
