@@ -262,7 +262,7 @@ ul {
   padding: 2%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30rem;
+  height: 31rem;
 }
 
 .containerTopTwo{
@@ -276,8 +276,9 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgb(2, 0, 36);
+  background: #061934fc;
   color: aliceblue;
+  background: #061934fc;
 
 }
 
