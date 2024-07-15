@@ -12,6 +12,7 @@ use App\Controller\IndexHomeController;
 use App\Entity\Client;
 use App\Entity\Cours;
 use App\Entity\Etudiants;
+
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -48,7 +49,7 @@ class DashboardController extends AbstractDashboardController
         return Dashboard::new()
             ->setTitle('Kissyma Consulting Formation');
             
-          
+    
     }
 
     public function configureMenuItems(): iterable
@@ -59,7 +60,9 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Client', 'fa-solid fa-person', Client::class);
         yield MenuItem::linkToCrud('Cours', 'fa fa-person-chalkboard', Cours::class);
         yield MenuItem::linkToCrud('Etudiants', 'fa fa-graduation-cap', Etudiants::class);
+        yield MenuItem::linkToRoute('Retour à l\'accueil', 'fa fa-home', 'app_index_home');
+        yield MenuItem::linkToRoute('Déconnexion', 'fa fa-sign-out', 'app_logout');
 
-        // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
+        //yield MenuItem::linkToCrud('The Label', 'fas fa-list', Cours::class);
     }
 }
