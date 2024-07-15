@@ -1,34 +1,45 @@
-*{box-sizing:border-box}
-body{margin:0}
-ul{padding:0}
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0
+}
+
+ul {
+  padding: 0
+}
 
 
 
 body {
-    background-color: rgb(246, 248, 249);
+  background-color: rgb(246, 248, 249);
 }
-a{
-    color: aliceblue ! important;
-}
-.navbar{
 
-    background-color: #09273a;
-    color: aliceblue ! important ;
- }
- .navbar img{
+a {
+  color: aliceblue ! important;
+}
+
+.navbar {
+
+  background-color: #09273a;
+  color: aliceblue ! important;
+}
+
+.navbar img {
   width: 10rem;
- }
+}
 
-.nav-link{
+.nav-link {
   color: rgb(249, 250, 251) ! important;
   font-size: 1.4rem !important;
 }
 
-.dropdown-item{
+.dropdown-item {
   color: rgb(102, 121, 138) ! important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: lightblue;
 }
 
@@ -40,41 +51,49 @@ a{
 
 
 ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
+
 .footer-section {
   background: #09273a;
   position: relative;
-  border-radius: 0 20% 0 0;
+  border-radius: 0 160pt 0 0;
 }
+
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
+
 .single-cta i {
   color: #0DE3FF;
   font-size: 30px;
   float: left;
   margin-top: 8px;
 }
+
 .cta-text {
   padding-left: 15px;
   display: inline-block;
 }
+
 .cta-text h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
+
 .cta-text span {
   color: #757575;
   font-size: 15px;
 }
+
 .footer-content {
   position: relative;
   z-index: 2;
 }
+
 .footer-pattern img {
   position: absolute;
   top: 0;
@@ -83,18 +102,22 @@ ul {
   background-size: cover;
   background-position: 100% 100%;
 }
+
 .footer-logo {
   margin-bottom: 30px;
 }
+
 .footer-logo img {
-    max-width: 200px;
+  max-width: 200px;
 }
+
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #7e7e7e;
   line-height: 28px;
 }
+
 .footer-social-icon span {
   color: #fff;
   display: block;
@@ -103,11 +126,13 @@ ul {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
 }
+
 .footer-social-icon a {
   color: #fff;
   font-size: 16px;
   margin-right: 15px;
 }
+
 .footer-social-icon i {
   height: 40px;
   width: 40px;
@@ -115,15 +140,19 @@ ul {
   line-height: 38px;
   border-radius: 50%;
 }
-.facebook-bg{
+
+.facebook-bg {
   background: #3B5998;
 }
-.twitter-bg{
+
+.twitter-bg {
   background: #55ACEE;
 }
-.google-bg{
+
+.google-bg {
   background: #DD4B39;
 }
+
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
@@ -131,6 +160,7 @@ ul {
   margin-bottom: 40px;
   position: relative;
 }
+
 .footer-widget-heading h3::before {
   content: "";
   position: absolute;
@@ -140,23 +170,28 @@ ul {
   width: 50px;
   background: #0DE3FF;
 }
+
 .footer-widget ul li {
   display: inline-block;
   float: left;
   width: 50%;
   margin-bottom: 12px;
 }
-.footer-widget ul li a:hover{
+
+.footer-widget ul li a:hover {
   color: #0DE3FF;
 }
+
 .footer-widget ul li a {
   color: #878787;
   text-transform: capitalize;
 }
+
 .subscribe-form {
   position: relative;
   overflow: hidden;
 }
+
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
@@ -164,38 +199,46 @@ ul {
   border: 1px solid #2E2E2E;
   color: #fff;
 }
+
 .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #0DE3FF;
-    padding: 13px 20px;
-    border: 1px solid #0DE3FF;
-    top: 0;
+  position: absolute;
+  right: 0;
+  background: #0DE3FF;
+  padding: 13px 20px;
+  border: 1px solid #0DE3FF;
+  top: 0;
 }
+
 .subscribe-form button i {
   color: #fff;
   font-size: 22px;
   transform: rotate(-6deg);
 }
-.copyright-area{
+
+.copyright-area {
   background: #202020;
   padding: 25px 0;
 }
+
 .copyright-text p {
   margin: 0;
   font-size: 14px;
   color: #878787;
 }
-.copyright-text p a{
+
+.copyright-text p a {
   color: #ff5e14;
 }
+
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
-.footer-menu li:hover a{
+
+.footer-menu li:hover a {
   color: #ff5e14;
 }
+
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
@@ -203,153 +246,224 @@ ul {
 
 /*css homepage*/
 
-.topOne{
-  
-  background-image: url("../image/bannièreDaccueil.png");
+.topOne {
+
+  background-image: url("../../assets/image/bannièreDaccueil.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 26rem;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 
 
-.topTwo{
+.topTwo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../image/opco-opérateurs-de-compétences.jpg");
+  background-image: url("../image/opco-opérateurs-de-compétences.jpg");
   padding: 2%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
 }
 
-.containerTopTwo{
-    align-self: center;
-    display: flex;
-    justify-content: center;
+.containerTopTwo {
+  align-self: center;
+  display: flex;
+  justify-content: center;
 }
 
 
 
-.containerdowntow{
+.containerdowntow {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100%;
 }
 
-.card-body{
+.card-body {
   background-color: white;
   border-radius: 0% 20% 0% 20%;
   padding: 2%;
   margin: 2%;
-
-
 }
 
-.card1{
-  
-  border-radius: 0% 20% 0% 20%;
- padding: 2%;
-  background-color: white;
-}
-
-.card-link{
-  color: dimgrey;
-}
-
-.topTree{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0% 0% 0% 25px;
-  background: #1486ff;
-  height: 26rem;
-}
-
-.histoire{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: aliceblue;
-  font-size: 1.2rem;
-}
-
-.histoire p{
-  text-justify: inter-word;
+/*---------------------------------------------*/
+.topTree {
+  background-color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
 }
 
 
-.cardRadius{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 85%;
-}
-
-.cardCardRadius{
-  border-radius: 0% 20% 0% 20%;
-}
-
-.fourText{
-  text-align: justify;
-  margin: 3% 6% 3% 6%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.fourText h3{
-  margin: 2%;
-}
-
-.fourText p {
+.histoire h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
   text-align: center;
 }
 
-.fourLogo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    margin: 1% 3% 1% 1%;
+
+.histoire p {
+  font-size: 1rem;
+  margin: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+  text-align: center;
 }
 
 
-
-
-.fourComptedeFormation{
+.cardRadius {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+
+.cardCardRadius {
+  width: 18rem;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.card-link {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-right: 10px;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/*---------------------------------------------*/
+
+.four {
+    margin: 30px 50px;
+    border-radius: 8px;
+}
+
+.fourLogo {
+  display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.containerGauche{
-  text-align: justify;
-  margin: 1% 3% 1% 4%;
+.fourLogo img {
+  max-width: 20rem;
 }
 
+.fourLogo p {
+  font-size: 1.3em;
+}
 
-.five{
+.fourText {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.fourText h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.fourText h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.fourText ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.fourText ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Section financement */
+.fourComptedeFormation {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.containerGauche,
+.containerDroit {
+  flex: 1;
+}
+
+.containerGauche h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.containerGauche h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.containerGauche ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.containerGauche ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.containerDroit img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 10rem;
+
+}
+
+.five {
   display: flex;
   justify-content: flex-end;
   background: #3B5998;
-  border-radius: 0% 130px 0% 130px;
+  border-radius: 0% 100pt 0% 100pt;
   padding: 3% 10% 2% 0%;
 }
 
 
-.cardfive{
+.cardfive {
 
   border-radius: 0% 20% 0% 20%;
   display: flex;
@@ -357,114 +471,221 @@ ul {
   align-items: center;
 
 }
-.bodyFive{
+
+.bodyFive {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: justify;
   flex-direction: column;
 }
-.bodyFive h5{
+
+.bodyFive h5 {
 
   background-color: #1486ff;
-  margin-top:2%;
+  margin-top: 2%;
 }
 
-.bodyFive button{
+.bodyFive button {
   background-color: #1486ff;
   border-radius: 20px;
   color: aliceblue;
   margin-bottom: 2%;
 }
-.card-text{
+
+.card-text {
   text-align: justify;
   font-size: 0.8rem;
-  
+
 }
 
-.card-title{
+.card-title {
   margin: 2% 2% 4% 0% !important;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.Témoignages{
+.Témoignages {
   text-align: justify;
   margin: 2%;
+
 }
 
-.sixCaroussel{
+.temoignages {
+  background-color: #fff;
+}
+
+.sixCaroussel {
   background-color: #1486ff;
+  padding: 3%;
+  height: 25rem;
+}
+
+.carousel-caption {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 74%;
+  padding-bottom: 9%;
+}
+
+
+.confianceBacktop {
   padding: 3%;
 }
 
+.gridLogo {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4%;
+}
 
-/*test caroussel*/
+td {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+}
 
-  .temoignages{
-    background-color: #fff;
+.tableImg {
+  width: 100% !important;
+}
+
+.sevenPartenaires {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3%;
+
+}
+
+.sevenPartenaires h2 {
+  font-size: 2.5rem;
+  background-color: #1486ff;
+  color: aliceblue;
+}
+
+.sevenPartenaires img {
+  width: 55rem;
+}
+
+.carousel-item {
+  height: 80vh;
+
+}
+
+.Log {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.ContainerLog {
+  width: 60%;
+}
+
+
+.Témoignages {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin: 20px;
+}
+
+.Témoignages h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.Témoignages h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+.Témoignages p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.Témoignages p strong {
+  font-weight: bold;
+  color: #000;
+}
+
+
+.Témoignages a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.Témoignages a:hover {
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:767px) {
+
+  .nav-link {
+    font-size: 2rem !important;
   }
 
-  tr{
-    background-color: #fff;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+  .Témoignages {
+    padding: 20px 10px;
   }
 
-  td{
-    background-color: #fff;
-    display: grid;
-    grid-template-columns: 20% 20% 20%;
-  }
-  .tableImg{
-    width: 100% !important;
+  .Témoignages h2 {
+    font-size: 1.5em;
   }
 
-  .sevenPartenaires{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .Témoignages h3 {
+    font-size: 1.2em;
+  }
+
+  .Témoignages p {
+    font-size: 0.9em;
+  }
+
+  .fourLogo {
     flex-direction: column;
-    padding-top: 3%;
-
+    align-items: flex-start;
   }
 
-  .sevenPartenaires h2{
-    font-size: 2.5rem;
-    background-color: #1486ff;
-    color: aliceblue;
+  .fourLogo img {
+    margin-bottom: 10px;
   }
 
-  .sevenPartenaires img{
-    width: 55rem;
+  .fourComptedeFormation {
+    flex-direction: column;
   }
 
-  .carousel-item{
-    height: 80vh;
-    
+  .containerGauche,
+  .containerDroit {
+    flex: 1 1 100%;
   }
 
-  .Log{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
+  .containerDroit img {
+    text-align: center;
+    margin-left: 0;
   }
 
-  .ContainerLog{
-    width: 60%;
+  .fourLogo p {
+    font-size: 1.3em;
+    text-align: center;
   }
 
-
-
-  @media screen and ( max-width:767px){
-
-    .nav-link{
-      font-size: 2rem !important;
-    }
-
-  }
+}
