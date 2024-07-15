@@ -1,172 +1,163 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello IndexHomeController!{% endblock %}
+{% block title %}Hello IndexHomeController!
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+	<style>
+		.example-wrapper {
+			margin: 1em auto;
+			max-width: 800px;
+			width: 95%;
+			font: 18px / 1.5 sans-serif;
+		}
+		.example-wrapper code {
+			background: #F5F5F5;
+			padding: 2px 6px;
+		}
+	</style>
 
-<section class="topOne">
-<div class="containerTopOne">
+	<section class="topOne">
+		<div class="containerTopOne"></div>
 
-</div>
+	</section>
 
-</section>
+	<section class="topTwo">
 
-<section class="topTwo">
+		<div class="containerdowntow">
 
-<div class="containerdowntow">
+			<div class="card1" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Nos Valeurs</h5>
+					<p class="card-text">
+            Nous sommes un centre de formation à taille humaine, 
+						ce qui nous permet d’offrir une attention 
+						personnalisée à chaque apprenant. Nos valeurs humaines se traduisent 
+						par un accompagnement de proximité, une écoute attentive et un environnement 
+						d'apprentissage bienveillant et stimulant.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
+			<div class="card1" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Notre Expertise</h5>
 
-<div class="card1" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Nos Valeurs</h5>
-    <p class="card-text">Nous sommes un centre de formation à taille humaine, 
-    ce qui nous permet d’offrir une attention 
-    personnalisée à chaque apprenant. Nos valeurs humaines se traduisent 
-    par un accompagnement de proximité, une écoute attentive et un environnement 
-    d'apprentissage bienveillant et stimulant.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-  </div>
+					<p class="card-text">Forts de notre expérience, nous dispensons des formations sur mesure en compétences transverses, bureautique, développement web et bien plus encore. En présentiel ou à distance, nos formations s'adaptent à vos besoins.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
+			<div class="card1" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Nos Certifications</h5>
+					<p class="card-text">
+            Notre organisme est fier d’être certifié Qualiopi, 
+						gage de notre engagement envers la qualité et la rigueur de nos prestations.
+						Cette certification atteste de notre capacité à offrir 
+						des formations conformes aux exigences des financeurs publics et privés.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="topTree">
+		<div class="histoire">
+			<h2>Notre Histoire</h2>
+			<p>Bienvenue sur le site de notre organisme de formation certifié Qualiopi. Depuis notre création, nous nous sommes engagés à fournir des formations de qualité supérieure, adaptées aux besoins changeants de nos apprenants.</p>
+		</div>
+    
+		<div class="cardRadius">
+			<div class="card cardCardRadius">
+				<div class="card-body">
+					<h5 class="card-title">Card title 1</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
 
-  <div class="card1" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Notre Expertise</h5>
-  
-    <p class="card-text">Forts de notre expérience, nous dispensons des formations sur mesure en compétences transverses, bureautique, développement web et bien plus encore. En présentiel ou à distance, nos formations s'adaptent à vos besoins.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
+			<div class="card cardCardRadius">
+				<div class="card-body">
+					<h5 class="card-title">Card title 2</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
 
+			<div class="card cardCardRadius">
+				<div class="card-body">
+					<h5 class="card-title">Card title 3</h5>
+					<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="four">
+		<div class="fourLogo">
+			<img src="{{ asset('image/LogoKS.png') }}" alt="Logo">
+			<p>Nous proposons deux types de formation pour répondre aux besoins et contraintes de nos apprenants :
+									Présentiel : Les sessions de formation se déroulent dans nos locaux, offrant une interaction directe avec les formateurs et les autres participants.<br>
+				Distanciel : Les cours sont dispensés en ligne via des plateformes interactives, permettant une grande flexibilité d’apprentissage.</p>
+		</div>
 
-<div class="card1" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Nos Certifications</h5>
-    <p class="card-text">Notre organisme est fier d’être certifié Qualiopi, 
-    gage de notre engagement envers la qualité et la rigueur de nos prestations.
-     Cette certification atteste de notre capacité à offrir 
-    des formations conformes aux exigences des financeurs publics et privés.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
+		<div class="fourText">
+			<h2>Vous voulez en savoir plus sur nos formations ?</h2>
+			<h3>Objectifs</h3>
+			<h3>Nos formations ont pour but de :</h3>
+			<ul>
+				<li>Développer des compétences techniques et transversales spécifiques.</li>
+				<li>Accroître l’efficacité et la productivité des apprenants dans leur environnement professionnel.</li>
+				<li>Faciliter la reconversion professionnelle ou l’évolution de carrière.</li>
+			</ul>
 
-</div>
-</section>
+			<h3>Pré-requis</h3>
+			<p>Chaque formation a ses propres prérequis, détaillés dans les descriptions des cours.<br>
+				Nous nous assurons que les apprenants aient le niveau et les compétences nécessaires pour suivre les programmes avec succès.</p>
+		</div>
 
-<section class="topTree">
-<div class="histoire">
-<h2 style="margin-bottom: 4%;">Notre Histoire</h2>
-<p style="margin-bottom: 4%;">Bienvenue sur le site de notre organisme de formation certifié Qualiopi. Depuis notre création, nous nous sommes engagés à fournir 
-<br>des formations de qualité supérieure, adaptées aux besoins changeants de nos apprenants.</p>
-</div>
-<div class="cardRadius">
+		<div class="fourComptedeFormation">
+			<div class="containerGauche">
+				<h2>Comment puis-je financer ma formation ?</h2>
 
-<div class="card cardCardRadius" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
-
-<div class="card cardCardRadius" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
-
-<div class="card cardCardRadius" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
-
-
-</div>
-
-</section>
-
-
-
-<section class="four">
-
-<div class="fourLogo">
-<img src={{ asset('image/LogoKS.png') }}>
-<p>Nous proposons deux types de formation pour répondre aux besoins et contraintes de nos apprenants :
-Présentiel : Les sessions de formation se déroulent dans nos locaux, offrant une interaction directe avec les formateurs et les autres participants.<br>
-Distanciel : Les cours sont dispensés en ligne via des plateformes interactives, permettant une grande flexibilité d’apprentissage.</p>
-
-</div>
-
-<div class="fourText">
-<h2>Vous voulez en savoir plus sur nos formations ? </h2>
-<H3>Objectifs</H3>
-<h3>
-Nos formations ont pour but de :</h3>
-<ul>
-<li>Développer des compétences techniques et transversales spécifiques.</li>
-<li>Accroître l’efficacité et la productivité des apprenants dans leur environnement professionnel.</li>
-<li>Faciliter la reconversion professionnelle ou l’évolution de carrière.</li>
-</ul>
-
-<h3>Pré-requis</h3>
-<p>Chaque formation a ses propres prérequis, détaillés dans les descriptions des cours.<br> Nous nous assurons que les apprenants aient le niveau et les compétences nécessaires pour suivre les programmes avec succès.</p>
-</div>
-
-<div class="fourComptedeFormation">
-<div class="containerGauche">
-<h2>Comment puis-je financer ma formation ?</h2>
-
-<h3>Nos formations sont éligibles à plusieurs dispositifs de financement :</h3>
-<ul>
-<li>CPF (Compte Personnel de Formation) : Utilisable par tous les salariés et demandeurs d’emploi.</li>
-<li>OPCO (Opérateurs de Compétences) : Prise en charge possible pour les entreprises et les salariés.</li>
-<li>France Travail : Aides et financements pour les demandeurs d’emploi. N’hésitez pas à nous contacter pour obtenir des informations spécifiques sur le financement de votre formation.</li>
-</div>
-<div class="containerDroit">
-<img src={{ asset('image/logo-mon-compte.png') }}>
-</div>
-
-
-
-</div>
-</section>
-
-<section class="five">
+				<h3>Nos formations sont éligibles à plusieurs dispositifs de financement :</h3>
+				<ul>
+					<li>CPF (Compte Personnel de Formation) : Utilisable par tous les salariés et demandeurs d’emploi.</li>
+					<li>OPCO (Opérateurs de Compétences) : Prise en charge possible pour les entreprises et les salariés.</li>
+					<li>France Travail : Aides et financements pour les demandeurs d’emploi. N’hésitez pas à nous contacter pour obtenir des informations spécifiques sur le financement de votre formation.</li>
+				</ul>
+			</div>
+			<div class="containerDroit">
+				<img src="{{ asset('image/logo-mon-compte.png') }}" alt="Mon Compte">
+			</div>
+		</div>
+	</section>
+</body></html><section class="five">
 
 <div class="card cardfive" style="width: 18rem;">
-  <div class="bodyFive">
-    <h5 class="card-title">Qui sommes nous ? </h5>
-   
-    <p class="card-text">Notre Histoire<br>
-Bienvenue sur le site de notre organisme de formation certifié Qualiopi. Depuis notre création, nous nous sommes engagés à fournir des formations de qualité supérieure, adaptées aux besoins changeants de nos apprenants.
-</p>
-    <button><a href="#" class="card-link">Card link</a></button>
-    
-  </div>
-</div>
+	<div class="bodyFive">
+		<h5 class="card-title">Qui sommes nous ?
+		</h5>
 
-</section>
+		<p class="card-text">Notre Histoire<br>
+			Bienvenue sur le site de notre organisme de formation certifié Qualiopi. Depuis notre création, nous nous sommes engagés à fournir des formations de qualité supérieure, adaptées aux besoins changeants de nos apprenants.
+		</p>
+		<button>
+			<a href="#" class="card-link">Card link</a>
+		</button>
 
-<section class="Témoignages">
+	</div>
+</div></section><section class="Témoignages">
 <h2>Témoignages</h2>
 
-<h3>Nos anciens apprenants témoignent de leur satisfaction et de l'impact positif de nos formations sur leur parcours professionnel.</h3> 
+<h3>Nos anciens apprenants témoignent de leur satisfaction et de l'impact positif de nos formations sur leur parcours professionnel.</h3>
 
 <p>Rejoignez-les et faites évoluer votre carrière grâce à nos programmes de formation de qualité.</p>
 
@@ -174,86 +165,73 @@ Bienvenue sur le site de notre organisme de formation certifié Qualiopi. Depuis
 
 <p>Découvrez comment nos formations peuvent transformer votre carrière. Que vous souhaitiez améliorer vos compétences actuelles ou en acquérir de nouvelles, nous avons la solution adaptée à vos besoins.</p>
 
-<p><strong>Contactez-nous ou Inscrivez-vous</strong> dès aujourd'hui pour démarrer votre parcours de formation avec nous.<br>
+<p>
+	<strong>Contactez-nous ou Inscrivez-vous</strong>
+	dès aujourd'hui pour démarrer votre parcours de formation avec nous.<br>
 
-Nous sommes impatients de vous accompagner dans votre développement professionnel !</p>
-
-
-</section>
-<section class="sixCaroussel">
-
-
+	Nous sommes impatients de vous accompagner dans votre développement professionnel !</p></section><section class="sixCaroussel">
 
 
 <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-     
-      <div class="carousel-caption  d-md ">
-        <h5>Kevin Benabdallah</h5>
-        <p>"Je recommande vivement cet organisme de formation. Grâce à leur programme de développement web en distanciel,
-            j'ai pu apprendre à coder à mon rythme et obtenir un nouveau poste de développeur junior. 
-            Un grand merci à toute l'équipe !"</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-     
-      <div class="carousel-caption  d-md">
-        <h5>Clara Leblanc</h5>
-        <p>"Les formations sont très bien structurées et les outils en ligne sont faciles à utiliser.
-            J'ai particulièrement apprécié le soutien des formateurs tout au long de mon parcours. 
-            Merci pour cette expérience enrichissante."</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-     
-      <div class="carousel-caption  d-md">
-        <h5>Marie Dupont</h5>
-        <p>"La formation en bureautique que j'ai suivie était excellente.
-            Les formateurs sont très compétents et à l'écoute.
-            J'ai pu améliorer mes compétences en Excel et Word,
-            ce qui m'a beaucoup aidée dans mon travail quotidien."</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+	<div class="carousel-indicators">
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
 
+			<div class="carousel-caption  d-md ">
+				<h5>Kevin Benabdallah</h5>
+				<p>"Je recommande vivement cet organisme de formation. Grâce à leur programme de développement web en distanciel,
+																			            j'ai pu apprendre à coder à mon rythme et obtenir un nouveau poste de développeur junior. 
+																			            Un grand merci à toute l'équipe !"</p>
+			</div>
+		</div>
+		<div class="carousel-item">
 
+			<div class="carousel-caption  d-md">
+				<h5>Clara Leblanc</h5>
+				<p>"Les formations sont très bien structurées et les outils en ligne sont faciles à utiliser.
+																			            J'ai particulièrement apprécié le soutien des formateurs tout au long de mon parcours. 
+																			            Merci pour cette expérience enrichissante."</p>
+			</div>
+		</div>
+		<div class="carousel-item">
 
-
-
-</section>
-<section class="sevenPartenaires">
+			<div class="carousel-caption  d-md">
+				<h5>Marie Dupont</h5>
+				<p>"La formation en bureautique que j'ai suivie était excellente.
+																			            Les formateurs sont très compétents et à l'écoute.
+																			            J'ai pu améliorer mes compétences en Excel et Word,
+																			            ce qui m'a beaucoup aidée dans mon travail quotidien."</p>
+			</div>
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
+</div></section><section class="sevenPartenaires">
 <h2 class="confianceBacktop">Ils nous font confiance !</h2>
 
 <section class="logoConfiance">
 
-  <div class="gridLogo">
-    <div><img class="tableImg" src= {{ asset('image/Confiance/logo20afdas-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/opco-ep-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/Logo-Uniformation-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/OPCO-ATLAS-LOGO-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/Logo-Ocapiat.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/opcommerce-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/AKTO-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/CONSTRUCTYS_LOGO-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/Logo_OPCO_mobilites.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/opco2i-last-removebg-preview.png') }}></div>
-    <div><img class="tableImg" src= {{ asset('image/Confiance/opcoSante-removebg-preview.png') }}></div>
-  </div>
-</section>
-</section>
-{% endblock %}
+	<div class="gridLogo">
+		<div><img class="tableImg" src={{ asset('image/Confiance/logo20afdas-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/opco-ep-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/Logo-Uniformation-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/OPCO-ATLAS-LOGO-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/Logo-Ocapiat.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/opcommerce-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/AKTO-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/CONSTRUCTYS_LOGO-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/Logo_OPCO_mobilites.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/opco2i-last-removebg-preview.png') }}></div>
+		<div><img class="tableImg" src={{ asset('image/Confiance/opcoSante-removebg-preview.png') }}></div>
+	</div>
+</section></section>{% endblock %}
