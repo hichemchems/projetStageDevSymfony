@@ -248,6 +248,7 @@ ul {
 
 .topOne {
 
+  background-image: url("../../assets/image/bannièreDaccueil.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 26rem;
