@@ -66,6 +66,10 @@ ul {
   border-radius: 0 160pt 0 0;
 }
 
+.logo-test img{
+  width: 50%;
+}
+
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
